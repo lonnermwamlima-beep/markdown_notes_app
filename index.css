@@ -1,0 +1,12 @@
+export interface NoteMetadata {
+  id: string;
+  title: string;
+  created: string;
+  modified: string;
+  tags: string[];
+}
+
+export interface Note {
+  metadata: NoteMetadata;
+  content: string;
+}
